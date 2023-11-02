@@ -1,0 +1,212 @@
+body {
+  background-image: url(body.jpg); 
+}
+#heading {
+    opacity: .8;
+    width: 65%;
+}
+h1 {
+   text-align: center;
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive;
+    padding: 20px;
+    color: #D0B8A8;
+    width: 900px;
+    height: 80px;
+    background-color: #850000;
+    border-radius: 50px;    
+}
+.block3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px; 
+  width: 35%;
+  margin-left: 60%;
+}
+.link {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    margin-top: 20px; 
+}
+.link:hover {
+       color : #850000;
+       font-size: 25px;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+.block1 {
+    background-color: #FFF6C3;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 120px;  
+    opacity: .8;
+    padding: 10px;  
+    height: 350x;
+    align-self: center; 
+}
+h2 {
+    font-size: 20px;
+    text-align: center;  
+    font-family: 'Yeseva One', cursive;
+    color: #FE0000;
+    font-weight: bolder;
+}
+p {
+    font-size: 20px;
+    text-align: center;  
+    font-family: 'EB Garamond', serif;
+    font-weight: bold; 
+}
+.pic3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    opacity: .9;    
+}
+.block2 {
+    margin-top: 20px;
+    margin-right: 10%;
+}
+#menu, #aboutus, #contactus, .mb-3 {
+    display: flex;
+    justify-content: center; 
+}
+h3 {
+    color: rgb(64,27,8);
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive; 
+    background-color: wheat;
+    width: 210px;
+    margin-top: 180px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #1A5D1A;
+    padding: 10px;   
+}
+.row {
+    display: flexbox;
+    justify-content: space-around; 
+}
+.card {
+   margin-top: 50px;  
+   opacity: .7;
+}
+.about {
+    margin-left: 400px;
+    background-color: #FFF5E4;
+    border-radius: 20px;
+    opacity: .7;
+    margin-top: 50px; 
+    padding: 20px;
+    width: 500px;
+}
+.form-control {
+    width: 50%;
+    border-radius: 30px;   
+}
+input {
+    width: 30%;
+    border-radius: 15px;
+    border: none;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.rounded {
+  margin: 20px;
+}
+.mobile {
+    display: none;
+}
+.insta {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    
+}
+
+@media all and (max-width: 700px) {
+    .block2 {
+       display: none;
+    }
+    #heading {
+        margin-left: 10px;
+        width: 350px;
+        margin-top: 20px; 
+    }
+    h1 {
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        border: none;
+        width: 350px;
+        height: 80px;
+        border-radius: 0%;
+        border-radius: 30px;
+    }
+    .block3 {
+        height: 60px;
+        flex-direction: column;
+        width: 300px;
+        padding: 0;
+        margin-left: 10px;
+        margin-top: 40px;
+        height: 100px; 
+    }
+    .link {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 16px;  
+    }
+    .block1 {
+        width: 350px;
+        padding: 5px;   
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .about {
+        margin-left: 10px;
+        background-color: #F7DB6A;
+        border-radius: 20px;
+        opacity: .7;
+        margin-top: 50px; 
+        padding: 5px;
+        width: 370px;
+        height: 150px;
+    }
+    .form-control {
+        width: 70%;
+        border-radius: 30px;  
+        height: 70px; 
+    }
+    .mobile {
+        display: block;
+        margin: 20px;
+        display: flex;
+    }
+    .bodypic {
+        width: 100%;
+    }
+    .bodypic:hover {
+        opacity: 0.4;
+    }
+    .insta {
+       margin-left: 220px;
+    }
+    input {
+        width: 60%;
+    }
+}
